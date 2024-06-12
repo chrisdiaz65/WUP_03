@@ -58,5 +58,6 @@ plot(TukeyHSD(model1))
 Middle-Front is different from the others. It crosses 0 indicating it crosses a differences meanwhile the others do not. Front-back and middle-back seem to be similar. Middle-front is the difference. Hence, the Middle and front rows are different from the back row. 
 
 ## Conclusions
+Is there a difference between the number of drinks taken depending on seat position? The answer to this is a yes. The null hypothesis is rejected in favor of the alternative. Alcohol is consumed more in the back seats than in the front and middle rows. From the given info and analysis from the test, the null hypothesis is rejected.
 
 
