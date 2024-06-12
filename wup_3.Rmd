@@ -22,11 +22,14 @@ davisdata <- read.csv(file="UCDavis.csv")
 ```{r}
 basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 ```
+
 ## Now add in boxplot
 
 ```{r}
 basicCN + geom_boxplot()
 ```
+  
+From the plot, the ones in the back tend to get more alcohol than the front seats and middle. Middle has some max amounts at a higher level than the front. 
   
   
 ### get fancy  
