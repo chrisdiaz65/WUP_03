@@ -46,6 +46,11 @@ favstats(alcohol~Seat,data=ucdavis1)
 The chart does show that the Back seating has the greatest maximum value. Also the highest mean value. While the front has the least values from the others. 
 
 ## Inferential Tests
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
 
 ## Conclusions
 
